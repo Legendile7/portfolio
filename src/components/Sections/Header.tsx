@@ -12,7 +12,7 @@ export const headerID = 'headerNav';
 const Header: FC = memo(() => {
   const [currentSection, setCurrentSection] = useState<SectionId | null>(null);
   const navSections = useMemo(
-    () => [SectionId.About, SectionId.Resume, SectionId.Portfolio, SectionId.Testimonials, SectionId.Contact],
+    () => [SectionId.About, SectionId.Resume],
     [],
   );
 
@@ -22,12 +22,7 @@ const Header: FC = memo(() => {
 
   useNavObserver(navSections.map(section => `#${section}`).join(','), intersectionHandler);
 
-  return (
-    <>
-      <MobileNav currentSection={currentSection} navSections={navSections} />
-      <DesktopNav currentSection={currentSection} navSections={navSections} />
-    </>
-  );
+  return null;
 });
 
 const DesktopNav: FC<{navSections: SectionId[]; currentSection: SectionId | null}> = memo(
