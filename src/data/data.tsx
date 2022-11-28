@@ -64,8 +64,8 @@ export const heroData: Hero = {
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me doing <strong className="text-stone-100">Magic Tricks</strong>,
-        coding or playing a <strong className="text-stone-100">Video Game</strong>, or competing in a {' '}
-        <strong className="text-stone-100">Cybersecurity CTF Competition</strong>.
+        coding or playing a <strong className="text-stone-100">Video Game</strong>, or competing in {' '}
+        <strong className="text-stone-100">Cybersecurity Competitions</strong>.
       </p>
     </>
   ),
