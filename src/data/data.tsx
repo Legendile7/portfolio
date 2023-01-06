@@ -12,6 +12,17 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
+import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
+import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
+import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
+import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
+import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
+import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -193,7 +204,44 @@ export const skills: SkillGroup[] = [
 /**
  * Portfolio section
  */
-export const portfolioItems: PortfolioItem[] = [];
+export const portfolioItems: PortfolioItem[] = [
+  {
+    title: 'GridShift Cipher',
+    description: 'A custom encryption algorithm that uses a key and multiple Caesar Ciphers.',
+    url: 'https://github.com/Legendile7/GridShift',
+    image: porfolioImage1,
+  },
+  {
+    title: 'Common Ground',
+    description: 'Website for a youth organization',
+    url: 'https://common-ground.wixsite.com/club',
+    image: porfolioImage2,
+  },
+  {
+    title: 'Overshock Games',
+    description: 'Website for company.',
+    url: 'http://overshock.games',
+    image: porfolioImage3,
+  },
+  {
+    title: 'Astroflight',
+    description: 'Multiplatform Cloud Video game',
+    url: 'https://overshock-games.itch.io/astroflight',
+    image: porfolioImage4,
+  },
+  {
+    title: 'Origins',
+    description: 'First Person Shooter Video Game for PC\'s',
+    url: 'https://overshock-games.itch.io/origins',
+    image: porfolioImage5,
+  },
+  {
+    title: 'Marooned',
+    description: 'Upcoming First Person SHooter Video Game for PC\'s',
+    url: 'https://overshock-games.itch.io/marooned',
+    image: porfolioImage6,
+  },
+];
 
 /**
  * Resume section -- TODO: Standardize resume contact format or offer MDX
