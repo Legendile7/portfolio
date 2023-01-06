@@ -12,12 +12,12 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/gridshift.png';
-import porfolioImage2 from '../images/portfolio/commonground.png';
-import porfolioImage3 from '../images/portfolio/osgWebsite.png';
-import porfolioImage4 from '../images/portfolio/astroflight.png';
-import porfolioImage5 from '../images/portfolio/originsScreenshot.png';
-import porfolioImage6 from '../images/portfolio/Marooned.png';
+import porfolioImage1 from '../images/portfolio/gridshift.jpg';
+import porfolioImage2 from '../images/portfolio/commonground.jpg';
+import porfolioImage3 from '../images/portfolio/osgWebsite.jpg';
+import porfolioImage4 from '../images/portfolio/astroflight.jpg';
+import porfolioImage5 from '../images/portfolio/originsScreenshot.jpg';
+import porfolioImage6 from '../images/portfolio/Marooned.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
