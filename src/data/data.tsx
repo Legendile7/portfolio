@@ -98,10 +98,9 @@ export const aboutData: About = {
   description: `Cybersecurity and Computer Science Student. Proficient in Java, Python, and C#. Love to compete in hacking, game design, and coding contests!`,
   aboutItems: [
     {label: 'Location', text: 'Cumming, GA', Icon: MapIcon},
-    {label: 'Age', text: '16', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Indian', Icon: FlagIcon},
-    {label: 'Interests', text: 'Magic, Coding, Hacking', Icon: SparklesIcon},
-    {label: 'Study', text: 'Alliance Academy for Innovation', Icon: AcademicCapIcon},
+    {label: 'Age', text: '17', Icon: CalendarIcon},
+    {label: 'Interests', text: 'Magic, Coding, Hacking, Game Dev', Icon: SparklesIcon},
+    {label: 'School', text: 'Alliance Academy for Innovation', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Mathnasium', Icon: OfficeBuildingIcon},
   ],
 };
@@ -233,7 +232,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Marooned',
     description: 'Upcoming First Person SHooter Video Game for PC\'s',
-    url: 'https://overshock-games.itch.io/marooned',
+    url: 'https://marooned.overshock.games',
     image: porfolioImage6,
   },
 ];
