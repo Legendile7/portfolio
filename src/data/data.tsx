@@ -16,7 +16,7 @@ import porfolioImage2 from '../images/portfolio/commonground.jpg';
 import porfolioImage3 from '../images/portfolio/osgWebsite.jpg';
 import porfolioImage4 from '../images/portfolio/astroflight.jpg';
 import porfolioImage5 from '../images/portfolio/originsScreenshot.jpg';
-import porfolioImage6 from '../images/portfolio/Marooned.jpg';
+import porfolioImage6 from '../images/portfolio/Novark.png';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -229,9 +229,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage5,
   },
   {
-    title: 'Marooned',
-    description: 'Upcoming First Person SHooter Video Game for PC\'s',
-    url: 'https://marooned.overshock.games',
+    title: 'Novark',
+    description: 'Upcoming First Person Shooter Video Game for PC\'s',
+    url: 'https://novark.overshock.games',
     image: porfolioImage6,
   },
 ];
