@@ -64,8 +64,8 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a <strong className="text-stone-100">High School Senior</strong>, studying
-        at <strong className="text-stone-100">Alliance Academy for Innovation</strong>.
+        I'm a <strong className="text-stone-100">Freshman</strong>, studying
+        at <strong className="text-stone-100">University of Georgia</strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me doing <strong className="text-stone-100">Magic Tricks</strong>,
@@ -99,7 +99,7 @@ export const aboutData: About = {
     {label: 'Location', text: 'Cumming, GA', Icon: MapIcon},
     {label: 'Age', text: '17', Icon: CalendarIcon},
     {label: 'Interests', text: 'Magic, Coding, Hacking, Game Dev', Icon: SparklesIcon},
-    {label: 'School', text: 'Alliance Academy for Innovation', Icon: AcademicCapIcon},
+    {label: 'School', text: 'University of Georgia', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Mathnasium', Icon: OfficeBuildingIcon},
   ],
 };
